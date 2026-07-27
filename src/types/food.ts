@@ -1,10 +1,9 @@
+import { Nutrition } from "./nutrition";
+
 export interface FoodItem {
+    id:number;
     name: string;
     amount: number;
     unit: string;
-
-    calories: number;
-    protein: number;
-    carbs: number;
-    fat: number;
+    nutrition:Nutrition;
 }
